@@ -1,4 +1,5 @@
--- infinite research generally has a finite number of defined 'levels', ones that don't have a formula. this function does not account for them.
+-- thanks https://github.com/Xevion/research-multipliers
+
 function is_infinite_research(name)
     return data.raw.technology[name].max_level == "infinite";
 end
